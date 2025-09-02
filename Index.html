@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kushi.A | CSS Student Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Professional portfolio website for CSS student Kushi.A, featuring skills, hobbies, and contact info.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Kushi.A</h1>
+            <p>CSS Student & Aspiring Front-End Developer</p>
+            <p>BMSIT College</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#hobbies">Hobbies</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hi! I am <strong>Kushi.A</strong>, born on <strong>21-Dec-2006</strong>. I am currently pursuing studies at <strong>BMSIT College</strong> and am passionate about web design, especially CSS. My goal is to become a skilled front-end developer and create beautiful, responsive websites.
+            </p>
+        </section>
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <ul class="hobbies-list">
+                <li>
+                    <span class="icon">💃</span>
+                    <span>Dance</span>
+                </li>
+                <li>
+                    <span class="icon">🎨</span>
+                    <span>Drawing</span>
+                </li>
+            </ul>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>Responsive Design</li>
+                <li>Flexbox & Grid</li>
+                <li>Basic JavaScript</li>
+                <li>UI/UX Principles</li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form class="contact-form" action="mailto:kushisonu257@gmail.com" method="POST" enctype="text/plain">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+            <p class="email-info">Or email directly: <a href="mailto:kushisonu257@gmail.com">kushisonu257@gmail.com</a></p>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Kushi.A. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
